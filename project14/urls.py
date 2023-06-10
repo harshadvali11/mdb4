@@ -20,6 +20,7 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mdb_jquery/',mdb_jquery,name='mdb_jquery'),
+    path('bg_image/',bg_image,name='bg_image'),
 ]
 
 

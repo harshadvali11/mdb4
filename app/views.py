@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def mdb_jquery(request):
     return render(request,'mdb_jquery.html')
+
+def bg_image(request):
+    return render(request,'bg_image.html')
